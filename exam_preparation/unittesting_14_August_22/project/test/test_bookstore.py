@@ -2,6 +2,9 @@ from unittest import TestCase, main
 
 from project.bookstore import Bookstore
 
+from exam_preparation.unittesting_14_August_22.project.bookstore import Bookstore
+
+
 
 class TestBookstore(TestCase):
 
@@ -84,7 +87,6 @@ class TestBookstore(TestCase):
             " - C++ Bible: 3 copies",
             str(self.store)
         )
-
 
 if __name__ == '__main__':
     main()
